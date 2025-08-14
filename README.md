@@ -141,7 +141,7 @@ sudo apt-get install ros-foxy-turtlebot3-description
 
 Open a terminal in the desired location for the new workspace. Clone the repository using:
 ```
-git clone https://github.com/tomasvr/turtlebot3_drlnav.git
+git clone https://github.com/AhadRiz/RL-based-Autonomous-Navigation.git
 ```
 
 `cd` into the directory and make sure you are on the main branch
