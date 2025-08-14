@@ -1,0 +1,518 @@
+[0.012s] Invoking command in '/home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joseph/turtlebot3_drlnav/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo
+[0.079s] -- The C compiler identification is GNU 9.4.0
+[0.133s] -- The CXX compiler identification is GNU 9.4.0
+[0.138s] -- Check for working C compiler: /usr/bin/cc
+[0.177s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.178s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.222s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.225s] -- Check for working CXX compiler: /usr/bin/c++
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.270s] -- Detecting CXX compiler ABI info
+[0.314s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Detecting CXX compile features
+[0.321s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.339s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.339s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.446s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.448s] -- Checking for module 'bullet>=2.82'
+[0.457s] --   Found bullet, version 2.88
+[0.519s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.549s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.578s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.595s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.770s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.783s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.786s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.790s] -- Searching for dependencies of ignition-math6
+[0.791s] -- Looking for OGRE...
+[0.792s] -- OGRE_PREFIX_WATCH changed.
+[0.794s] -- Checking for module 'OGRE'
+[0.801s] --   Found OGRE, version 1.9.0
+[0.821s] -- Found Ogre Ghadamon (1.9.0)
+[0.825s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.832s] -- Looking for OGRE_Paging...
+[0.835s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.835s] -- Looking for OGRE_Terrain...
+[0.838s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.838s] -- Looking for OGRE_Property...
+[0.841s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.841s] -- Looking for OGRE_RTShaderSystem...
+[0.844s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.844s] -- Looking for OGRE_Volume...
+[0.847s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.847s] -- Looking for OGRE_Overlay...
+[0.849s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.907s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.908s] -- Looking for ignition-transport8 -- found version 8.3.0
+[0.908s] -- Searching for dependencies of ignition-transport8
+[0.918s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.923s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.926s] -- Checking for module 'libzmq >= 4'
+[0.935s] --   Found libzmq , version 4.3.2
+[0.956s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.959s] -- Checking for module 'uuid'
+[0.966s] --   Found uuid, version 2.34.0
+[0.987s] -- Found UUID: TRUE  
+[0.988s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.988s] -- Searching for dependencies of ignition-msgs5
+[0.999s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.001s] -- Checking for module 'tinyxml2'
+[1.009s] --   Found tinyxml2, version 6.2.0
+[1.029s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.030s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.030s] -- Searching for dependencies of ignition-common3
+[1.031s] -- Looking for dlfcn.h - found
+[1.031s] -- Looking for libdl - found
+[1.032s] -- Found DL: TRUE  
+[1.037s] -- Searching for <ignition-common3> component [graphics]
+[1.038s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.038s] -- Searching for dependencies of ignition-common3-graphics
+[1.038s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.040s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.040s] -- Searching for dependencies of ignition-fuel_tools4
+[1.079s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.084s] -- Checking for module 'jsoncpp'
+[1.092s] --   Found jsoncpp, version 1.7.4
+[1.113s] -- Found JSONCPP: TRUE  
+[1.117s] -- Checking for module 'libzip'
+[1.124s] --   Found libzip, version 1.5.1
+[1.145s] -- Found ZIP: TRUE  
+[1.145s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.145s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.145s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.147s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[1.148s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.163s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.206s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.220s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.315s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.359s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.389s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.390s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.391s] -- Found Threads: TRUE  
+[1.477s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.521s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.580s] -- Configuring done
+[1.611s] -- Generating done
+[1.614s] -- Build files have been written to: /home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo
+[1.623s] Invoked command in '/home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joseph/turtlebot3_drlnav/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo
+[1.625s] Invoking command in '/home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo -- -j20 -l20
+[1.654s] [35m[1mScanning dependencies of target obstacles[0m
+[1.654s] [35m[1mScanning dependencies of target obstacle2[0m
+[1.656s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[1.656s] [35m[1mScanning dependencies of target obstacle1[0m
+[1.724s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[1.755s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_drl_world/obstacle_plugin/obstacles.cc.o[0m
+[1.762s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_drl_world/obstacle_plugin/obstacle1.cc.o[0m
+[1.763s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_drl_world/obstacle_plugin/obstacle2.cc.o[0m
+[6.263s] [ 62%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[6.461s] [ 62%] Built target turtlebot3_drive
+[7.830s] [ 75%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[7.866s] [ 87%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[7.946s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[8.035s] [100%] Built target obstacle2
+[8.058s] [100%] Built target obstacles
+[8.126s] [100%] Built target obstacle1
+[8.135s] Invoked command in '/home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo -- -j20 -l20
+[8.160s] Invoking command in '/home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo
+[8.166s] -- Install configuration: ""
+[8.166s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[8.167s] -- Set runtime path of "/home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[8.167s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[8.167s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage1.launch.py
+[8.167s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage8.launch.py
+[8.167s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage4.launch.py
+[8.167s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage6.launch.py
+[8.167s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage9.launch.py
+[8.167s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage3.launch.py
+[8.167s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage10.launch.py
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage2.launch.py
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage5.launch.py
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage7.launch.py
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[8.168s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls/model.sdf
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/goal_box
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/goal_box/model.sdf
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/goal_box/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle8
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle8/model.sdf
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle8/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle10
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle10/model.sdf
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle10/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle1
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle1/model.sdf
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle1/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle12
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle12/model.sdf
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle12/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls/model.sdf
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/turtlebot3_house_tomas
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/turtlebot3_house_tomas/model.sdf
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/turtlebot3_house_tomas/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_obstacles
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_obstacles/model.sdf
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_obstacles/model.config
+[8.169s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/triangle
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/triangle/model.sdf
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/triangle/model.config
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/model.sdf
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle4
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle4/model.sdf
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle4/model.config
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/long_wall
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/long_wall/model.sdf
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/long_wall/model.config
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle7
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle7/model.sdf
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle7/model.config
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle11
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle11/model.sdf
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle11/model.config
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle8.cc
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle13.cc
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacles.cc
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib
+[8.170s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle5.so
+[8.171s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle7.so
+[8.171s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle11.so
+[8.172s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/Makefile
+[8.172s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle8.so
+[8.173s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeCache.txt
+[8.173s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle3.so
+[8.173s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle12.so
+[8.174s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle1.so
+[8.175s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle6.so
+[8.175s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle4.so
+[8.176s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle10.so
+[8.177s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles
+[8.177s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir
+[8.177s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/DependInfo.cmake
+[8.177s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/flags.make
+[8.177s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/cmake_clean.cmake
+[8.177s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/obstacle10.cc.o
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/depend.make
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/CXX.includecache
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/build.make
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/depend.internal
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/link.txt
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle10.dir/progress.make
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/Makefile.cmake
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/DependInfo.cmake
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/flags.make
+[8.178s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/obstacle7.cc.o
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/cmake_clean.cmake
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/depend.make
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/CXX.includecache
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/build.make
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/depend.internal
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/link.txt
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle7.dir/progress.make
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/TargetDirectories.txt
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/DependInfo.cmake
+[8.179s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/flags.make
+[8.180s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/cmake_clean.cmake
+[8.180s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/depend.make
+[8.180s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/CXX.includecache
+[8.180s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/build.make
+[8.180s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/depend.internal
+[8.180s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/link.txt
+[8.180s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/obstacles.cc.o
+[8.181s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacles.dir/progress.make
+[8.181s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir
+[8.181s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/obstacle2.cc.o
+[8.182s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/DependInfo.cmake
+[8.182s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/flags.make
+[8.182s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/cmake_clean.cmake
+[8.182s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/depend.make
+[8.182s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/CXX.includecache
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/build.make
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/depend.internal
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/link.txt
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle2.dir/progress.make
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/DependInfo.cmake
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/flags.make
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/cmake_clean.cmake
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/depend.make
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/CXX.includecache
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/build.make
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/depend.internal
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/link.txt
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/progress.make
+[8.183s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle12.dir/obstacle12.cc.o
+[8.184s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir
+[8.184s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/DependInfo.cmake
+[8.184s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/obstacle3.cc.o
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/flags.make
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/cmake_clean.cmake
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/depend.make
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/CXX.includecache
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/build.make
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/depend.internal
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/link.txt
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle3.dir/progress.make
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/DependInfo.cmake
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/flags.make
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/cmake_clean.cmake
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/depend.make
+[8.186s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/CXX.includecache
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/build.make
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/depend.internal
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/link.txt
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/progress.make
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle8.dir/obstacle8.cc.o
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/DependInfo.cmake
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/flags.make
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/cmake_clean.cmake
+[8.187s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/depend.make
+[8.188s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/CXX.includecache
+[8.188s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/build.make
+[8.188s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/depend.internal
+[8.188s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/link.txt
+[8.188s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/progress.make
+[8.188s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle4.dir/obstacle4.cc.o
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/cmake.check_cache
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/DependInfo.cmake
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/flags.make
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/cmake_clean.cmake
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/depend.make
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/CXX.includecache
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/build.make
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/depend.internal
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/link.txt
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/progress.make
+[8.189s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle11.dir/obstacle11.cc.o
+[8.190s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir
+[8.190s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/DependInfo.cmake
+[8.190s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/flags.make
+[8.190s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/cmake_clean.cmake
+[8.190s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/depend.make
+[8.190s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/CXX.includecache
+[8.190s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/build.make
+[8.191s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/depend.internal
+[8.191s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/link.txt
+[8.191s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/progress.make
+[8.191s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle5.dir/obstacle5.cc.o
+[8.192s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/Makefile2
+[8.192s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/progress.marks
+[8.192s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/CMakeOutput.log
+[8.192s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/CMakeDirectoryInformation.cmake
+[8.192s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir
+[8.192s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/DependInfo.cmake
+[8.192s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/flags.make
+[8.192s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/cmake_clean.cmake
+[8.192s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/obstacle1.cc.o
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/depend.make
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/CXX.includecache
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/build.make
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/depend.internal
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/link.txt
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle1.dir/progress.make
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CompilerIdC
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CompilerIdC/a.out
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CMakeSystem.cmake
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin
+[8.193s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CMakeCCompiler.cmake
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CompilerIdCXX
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CompilerIdCXX/a.out
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/DependInfo.cmake
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/flags.make
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/cmake_clean.cmake
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/depend.make
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/CXX.includecache
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/build.make
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/depend.internal
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/link.txt
+[8.194s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/obstacle9.cc.o
+[8.195s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle9.dir/progress.make
+[8.195s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir
+[8.195s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/DependInfo.cmake
+[8.195s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/flags.make
+[8.195s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/cmake_clean.cmake
+[8.195s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/depend.make
+[8.195s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/CXX.includecache
+[8.195s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/obstacle6.cc.o
+[8.196s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/build.make
+[8.196s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/depend.internal
+[8.196s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/link.txt
+[8.196s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/obstacle6.dir/progress.make
+[8.196s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/CMakeError.log
+[8.196s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle2.so
+[8.197s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/cmake_install.cmake
+[8.197s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacles.so
+[8.198s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle9.so
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle9.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle3.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle4.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle2.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle5.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle11.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/CMakeLists.txt
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle6.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle1.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle7.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle12.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle10.cc
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls_large
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls_large/model.sdf
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls_large/model.config
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls_large
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls_large/model.sdf
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls_large/model.config
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle9
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle9/model.sdf
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle9/model.config
+[8.199s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle6
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle6/model.sdf
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle6/model.config
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle2
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle2/model.sdf
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle2/model.config
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacles
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacles/model.sdf
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacles/model.config
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle3
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle3/model.sdf
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle3/model.config
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/model.config
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle5
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle5/model.sdf
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle5/model.config
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[8.200s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage5
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage5/waffle_pi.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage5/burger.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage5/waffle.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage7
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage7/waffle_pi.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage7/burger.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage7/waffle.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage6
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage6/waffle_pi.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage6/burger.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage6/waffle.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage8
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage8/waffle_pi.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage8/burger.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage8/waffle.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage10
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage10/waffle_pi.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage10/burger.model
+[8.201s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage10/waffle.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage4
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage4/waffle_pi.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage4/burger.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage4/waffle.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage2
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage2/waffle_pi.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage2/burger.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage2/waffle.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage1
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage1/waffle_pi.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage1/burger.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage1/waffle.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage3
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage3/waffle_pi.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage3/burger.model
+[8.202s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage3/waffle.model
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/world_test
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage9
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage9/waffle_pi.model
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage9/burger.model
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage9/waffle.model
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/include/
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[8.203s] -- Installing: /home/joseph/turtlebot3_drlnav/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[8.205s] Invoked command in '/home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joseph/turtlebot3_drlnav/build/turtlebot3_gazebo

@@ -1,0 +1,29 @@
+[0.364s] Invoking command in '/home/joseph/turtlebot3_drlnav/src/turtlebot3_drl': PYTHONPATH=/home/joseph/turtlebot3_drlnav/build/turtlebot3_drl/prefix_override:/home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_drl build --build-base /home/joseph/turtlebot3_drlnav/build/turtlebot3_drl/build install --record /home/joseph/turtlebot3_drlnav/build/turtlebot3_drl/install.log --single-version-externally-managed install_data
+[0.468s] running egg_info
+[0.468s] writing ../../build/turtlebot3_drl/turtlebot3_drl.egg-info/PKG-INFO
+[0.468s] writing dependency_links to ../../build/turtlebot3_drl/turtlebot3_drl.egg-info/dependency_links.txt
+[0.468s] writing entry points to ../../build/turtlebot3_drl/turtlebot3_drl.egg-info/entry_points.txt
+[0.468s] writing requirements to ../../build/turtlebot3_drl/turtlebot3_drl.egg-info/requires.txt
+[0.468s] writing top-level names to ../../build/turtlebot3_drl/turtlebot3_drl.egg-info/top_level.txt
+[0.487s] reading manifest file '../../build/turtlebot3_drl/turtlebot3_drl.egg-info/SOURCES.txt'
+[0.488s] writing manifest file '../../build/turtlebot3_drl/turtlebot3_drl.egg-info/SOURCES.txt'
+[0.489s] running build
+[0.489s] running build_py
+[0.490s] copying turtlebot3_drl/common/settings.py -> /home/joseph/turtlebot3_drlnav/build/turtlebot3_drl/build/lib/turtlebot3_drl/common
+[0.490s] running install
+[0.490s] running install_lib
+[0.490s] copying /home/joseph/turtlebot3_drlnav/build/turtlebot3_drl/build/lib/turtlebot3_drl/common/settings.py -> /home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common
+[0.490s] byte-compiling /home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl/common/settings.py to settings.cpython-38.pyc
+[0.491s] running install_data
+[0.491s] running install_egg_info
+[0.491s] removing '/home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl-2.0.0-py3.8.egg-info' (and everything under it)
+[0.491s] Copying ../../build/turtlebot3_drl/turtlebot3_drl.egg-info to /home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/python3.8/site-packages/turtlebot3_drl-2.0.0-py3.8.egg-info
+[0.492s] running install_scripts
+[0.502s] Installing environment script to /home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.502s] Installing gazebo_goals script to /home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.502s] Installing real_agent script to /home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.502s] Installing real_environment script to /home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.502s] Installing test_agent script to /home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.502s] Installing train_agent script to /home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/turtlebot3_drl
+[0.502s] writing list of installed files to '/home/joseph/turtlebot3_drlnav/build/turtlebot3_drl/install.log'
+[0.515s] Invoked command in '/home/joseph/turtlebot3_drlnav/src/turtlebot3_drl' returned '0': PYTHONPATH=/home/joseph/turtlebot3_drlnav/build/turtlebot3_drl/prefix_override:/home/joseph/turtlebot3_drlnav/install/turtlebot3_drl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_drl build --build-base /home/joseph/turtlebot3_drlnav/build/turtlebot3_drl/build install --record /home/joseph/turtlebot3_drlnav/build/turtlebot3_drl/install.log --single-version-externally-managed install_data
