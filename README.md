@@ -401,10 +401,6 @@ The visual should mainly be used during evaluation as it can slow down training 
 
 # Physical Robot
 
-The models trained using this framework were validated on a low-cost physical system. Video demonstrations can be found on my [YouTube channel](https://www.youtube.com/@tomasvr1/videos).
-
-![Physical Robot](media/physical_robot.png?raw=true)
-
 The are three main requirements for a robot to be compatible with this project:
 * The robot needs to provide LiDAR scan information
 * The robot needs to provide any kind of odometry information (e.g. tachometers, SLAM, AMCL or GPS)
